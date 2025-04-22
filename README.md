@@ -385,8 +385,9 @@ ping -6 fe80::1%15
 show ipv6 interface brief  
 ping ipv6 2001:db8:1:c::1  
 ```
+``aaaa``
+``
 
-```console
 Switch> enable
 Switch# configure terminal
 Switch(config)# hostname SC
@@ -397,3 +398,4 @@ SC(config)# banner motd #Acceso Restringido#
 SC(config)# enable secret **tics**  # 🔐 Contraseña cifrada
 SC(config-if)# ip address **172.16.0.94** 255.255.255.224  # 🌐 IPv4
 ```
+``
