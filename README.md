@@ -227,7 +227,7 @@ El presente proyecto tiene como objetivo diseñar e implementar una topología d
 --- 
 
 ## **Topología**
-<img src="assets/img/CapturaLaboratorioPacketTracer.png" height="400px" />    
+<img src="assets/img/CapturaLaboratorioPacketTracer.png" height="500px" />    
 La simulación de la topología esta en: <a href="Proyecto_Integrador.pkt">Proyecto_Integrador.pkt</a>  
 
 ---
