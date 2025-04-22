@@ -386,10 +386,14 @@ show ipv6 interface brief
 ping ipv6 2001:db8:1:c::1  
 ```
 
-<pre style="color: #00FF00; background-color: #000000;">
-Switch> <span style="color: #FFFF00;">enable</span>
-Switch# <span style="color: #FF00FF;">configure terminal</span>
-</pre>
-<font color="green"> Welcome to freeCodeCamp. </font>
----
+```console
+Switch> enable
+Switch# configure terminal
+Switch(config)# hostname SC
+SC(config)# banner motd #Acceso Restringido#
+```
 
+```bash
+SC(config)# enable secret **tics**  # 🔐 Contraseña cifrada
+SC(config-if)# ip address **172.16.0.94** 255.255.255.224  # 🌐 IPv4
+```
