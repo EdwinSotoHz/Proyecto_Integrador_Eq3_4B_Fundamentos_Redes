@@ -384,6 +384,11 @@ ping -6 fe80::1%15
 # Cisco:
 show ipv6 interface brief  
 ping ipv6 2001:db8:1:c::1  
+```
 
+<pre style="color: #00FF00; background-color: #000000;">
+Switch> <span style="color: #FFFF00;">enable</span>
+Switch# <span style="color: #FF00FF;">configure terminal</span>
+</pre>
 ---
 
