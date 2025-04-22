@@ -385,3 +385,27 @@ ping -6 fe80::1%15
 show ipv6 interface brief  
 ping ipv6 2001:db8:1:c::1  
 ```
+4. **Abrir Configuration Manager**  
+   Ejecutar: `SQLServerManager16.msc`
+
+5. **Configurar Protocolos**  
+   - Activar TCP/IP  
+   - Configurar propiedades TCP/IP:  
+     - Establecer puerto TCP: 1433  
+     - Habilitar "Escuchar Todo"
+
+6. **Configurar SQL Browser**  
+   - Establecer inicio automático  
+   - Iniciar servicio
+
+7. **Reiniciar servicios**
+<details> 
+    <summary>
+        Configuraciones SQLServer
+    </summary>
+    <img src="assets/img/1.jpeg">
+    <img src="assets/img/2.jpeg">
+    <img src="assets/img/3.jpeg">
+    <img src="assets/img/4.jpeg">
+    <img src="assets/img/5.jpeg">
+</details>
