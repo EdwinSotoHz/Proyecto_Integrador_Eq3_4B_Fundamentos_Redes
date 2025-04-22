@@ -403,9 +403,9 @@ ping ipv6 2001:db8:1:c::1
     <summary>
         Configuraciones SQLServer
     </summary>
-    <img src="assets/img/1.jpeg" height="150px">   
-    <img src="assets/img/2.jpeg" height="220px">   
-    <img src="assets/img/3.jpeg" height="220px">   
-    <img src="assets/img/4.jpeg" height="150px">   
-    <img src="assets/img/5.jpeg" height="220px">   
+    <img src="assets/img/1.jpeg" height="150px"> <br>
+    <img src="assets/img/2.jpeg" height="220px"> <br>
+    <img src="assets/img/3.jpeg" height="220px"> <br>
+    <img src="assets/img/4.jpeg" height="150px"> <br>
+    <img src="assets/img/5.jpeg" height="220px"> <br>
 </details>
