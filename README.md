@@ -228,7 +228,7 @@ El presente proyecto tiene como objetivo diseñar e implementar una topología d
 
 ## **Topología**
 <img src="assets/img/CapturaLaboratorioPacketTracer.png" height="500px" />    
-La simulación de la topología esta en: <a href="Proyecto_Integrador.pkt">Proyecto_Integrador.pkt</a>  
+La simulación de la topología está en: <a href="Proyecto_Integrador.pkt">Proyecto_Integrador.pkt</a>  
 
 ---
 
@@ -409,3 +409,7 @@ ping ipv6 2001:db8:1:c::1
     <img src="assets/img/4.jpeg" height="150px"> <br>
     <img src="assets/img/5.jpeg" height="220px"> <br>
 </details>
+
+La base de datos usada hasta ahora está en el archivo: <a href="SQLServer/CentroCultural.bak">CentroCultural.bak</a>  
+
+La consultas de prueba están en el archivo: <a href="SQLServer/consultas_CentroCultural.sql">consultas_CentroCultural.sql</a>  
