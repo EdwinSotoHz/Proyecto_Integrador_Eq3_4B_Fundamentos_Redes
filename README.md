@@ -368,4 +368,22 @@ SC(config)#
     </pre>
 </details>
 
+### **Configuraciones básicas de los clientes y servidor SQL**  
+1. **Desactivar Firewall**  
+2. **Asignar IP estática**:  
+   - IPv4: `172.16.0.X`
+   - Máscara: `255.255.255.224`  
+   - Gateway: `172.16.0.94`  
+
+### **Verificación IPv6**
+```bash
+# Windows:
+ipconfig | findstr "IPv6"  
+ping -6 fe80::1%15  
+
+# Cisco:
+show ipv6 interface brief  
+ping ipv6 2001:db8:1:c::1  
+
 ---
+
