@@ -390,5 +390,6 @@ ping ipv6 2001:db8:1:c::1
 Switch> <span style="color: #FFFF00;">enable</span>
 Switch# <span style="color: #FF00FF;">configure terminal</span>
 </pre>
+<font color="green"> Welcome to freeCodeCamp. </font>
 ---
 
