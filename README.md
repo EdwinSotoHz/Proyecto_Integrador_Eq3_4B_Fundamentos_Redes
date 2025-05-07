@@ -192,6 +192,7 @@ El presente proyecto tiene como objetivo diseñar e implementar una topología d
         <td colspan="5" ><strong>Computadoras</strong> </td>
     </tr>
     <tr>
+        <td> <strong>Usuario</strong> </td>
         <td> <strong>Dispositivo</strong> </td>
         <td> <strong>IPv4</strong> </td>
         <td> <strong>Máscara</strong> </td>
@@ -199,6 +200,7 @@ El presente proyecto tiene como objetivo diseñar e implementar una topología d
         <td> <strong>IPv6 y Link-Local</strong> </td>
     </tr>
     <tr>
+        <td> Chema </td>
         <td> Servidor SQL </td>
         <td> 172.16.0.65 </td>
         <td rowspan="5" > 255.255.255.224 </td>
@@ -206,19 +208,23 @@ El presente proyecto tiene como objetivo diseñar e implementar una topología d
         <td rowspan="5" > Autoasignadas </td>
     </tr>
     <tr>
-        <td> Cliente 1 </td>
+        <td> Edwin </td>
+        <td> Servidor WebApp </td>
         <td> 172.16.0.66 </td>
     </tr>
     <tr>
-        <td> Cliente 2 </td>
+        <td>Dilan </td>
+        <td> Cliente 1 </td>
         <td> 172.16.0.67 </td>
     </tr>
     <tr>
-        <td> Cliente 3 </td>
+        <td> Gerardo </td>
+        <td> Cliente 2 </td>
         <td> 172.16.0.68 </td>
     </tr>
     <tr>
-        <td> Cliente 4 </td>
+        <td> Fernando </td>
+        <td> Cliente 3 </td>
         <td> 172.16.0.69 </td>
     </tr>
 </table>
