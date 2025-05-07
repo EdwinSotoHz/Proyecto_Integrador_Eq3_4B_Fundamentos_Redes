@@ -329,7 +329,7 @@ SC(config)#
     <pre>
 Switch> enable
 Switch# configure terminal
-Switch# prefer dual-ipv4-and-ipv6 default
+Switch# sdm prefer dual-ipv4-and-ipv6 default
 Switch# end
 Switch#reload
 System configuration has been modified. Save? [yes/no]:yes
