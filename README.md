@@ -325,7 +325,11 @@ Switch> enable
 Switch# configure terminal
 Switch# prefer dual-ipv4-and-ipv6 default
 Switch# end
-Switch# reload
+Switch#reload
+System configuration has been modified. Save? [yes/no]:yes
+Building configuration...
+[OK]
+Proceed with reload? [confirm]
 ######################################################################################################
 Switch> enable
 Switch# configure terminal
@@ -373,17 +377,17 @@ SC(config)#
 2. **Asignar IP estática**:  
    - IPv4: `172.16.0.X`
    - Máscara: `255.255.255.224`  
-   - Gateway: `172.16.0.94`  
+   - Gateway: `172.16.0.92`  
 
 ### **Verificación IPv6**
 ```bash
 # Windows:
-ipconfig | findstr "IPv6"  
-ping -6 fe80::1%15  
+ipconfig
+ping IPv4_o_IPv6
 
 # Cisco:
-show ipv6 interface brief  
-ping ipv6 2001:db8:1:c::1  
+show interface brief  
+ping IPv4_o_IPv6
 ```
 4. **Abrir Configuration Manager**  
    Ejecutar: `SQLServerManager16.msc`
